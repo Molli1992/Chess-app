@@ -131,13 +131,13 @@ a {
     flex-direction: column;
 }
 
-.rigth-col nav ul li a {
+.link-profile {
     text-transform: uppercase;
     color: #818181;
     cursor: pointer;
 }
 
-.rigth-col nav ul li a:hover {
+.link-profile:hover {
     color: black;
 }
 
