@@ -175,4 +175,14 @@ a {
         display: block;
     }
 
+    .rigth-col nav {
+        margin-top: 50px;
+    }
+
+    .rigth-col .photos {
+        height: 336px;
+        overflow: auto;
+        padding: 0 0 30px;
+    }
+
 }
