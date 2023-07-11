@@ -1,0 +1,43 @@
+.body-learn {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://i.pinimg.com/564x/f8/29/70/f82970f3e1d28d3e816729d850b2b1a0.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text-learn {
+    width: 700px;
+    text-align: center;
+}
+
+.container-text-learn h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container-text-learn p {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.youtube-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
