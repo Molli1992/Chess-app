@@ -50,9 +50,9 @@ function Profile() {
 
                         <nav>
                             <ul className="ul-profile">
-                                <li><a>Photos</a></li>
-                                <li><a>Games</a></li>
-                                <li><a><Link to="/">Home</Link></a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#"><Link to="/">Home</Link></a></li>
                                 <li><a>Settings</a></li>
                             </ul>
 
