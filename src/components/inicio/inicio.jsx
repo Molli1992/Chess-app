@@ -19,18 +19,18 @@ function Inicio() {
 
             <div className="content-inicio">
 
-                <h1>LIFE IS A GAME OF CHESS</h1>
+                <h1>LA VIDA ES UN JUEGO DE AJEDREZ</h1>
                 <p>
-                    Learn to play chess with our website,
-                    easy tutorials Youtube Channel to watch.
+                    Aprende a jugar al ajedrez con nuestra web,
+                    Tutoriales fáciles de Youtube para ver.
                 </p>
 
                 <div>
                     <button type="button" className="button-inicio">
-                        <span className="span-button"></span>PLAY CHESS
+                        <span className="span-button"></span>Juega al ajedrez
                     </button>
                     <button type="button" className="button-inicio">
-                        <span className="span-button"></span>TRAINING
+                        <span className="span-button"></span>Entrenamiento
                     </button>
                 </div>
 

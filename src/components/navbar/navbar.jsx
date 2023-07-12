@@ -13,10 +13,9 @@ function Navbar() {
             <img src={ChessLogo} alt="logo" className="logo" />
 
             <ul className="ul-navbar">
-                <li><Link to="/" className="link-nav">Home</Link></li>
-                <li><Link to="/history" className="link-nav">History</Link></li>
-                <li><Link to="/learn" className="link-nav">Learn</Link></li>
-                <li><Link to="/profile" className="link-nav">Profile</Link></li>
+                <li><Link to="/" className="link-nav">Inicio</Link></li>
+                <li><Link to="/learn" className="link-nav">Aprende</Link></li>
+                <li><Link to="/profile" className="link-nav">Perfil</Link></li>
                 <li><Link to="/login" className="link-nav">Login</Link></li>
             </ul>
 

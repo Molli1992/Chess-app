@@ -1,6 +1,8 @@
 import React from "react";
 import "./profile.css";
 import { Link } from "react-router-dom";
+import Navbar from "../navbar/navbar";
+import Navigation from "../navigation/navigation";
 
 
 function Profile() {
@@ -10,9 +12,10 @@ function Profile() {
 
         <div className="body-profile">
 
-            <div className="header-wrapper">
+            <Navbar />
+            <Navigation />
 
-                <header></header>
+            <div className="header-wrapper">
 
                 <div className="cols-container">
 
@@ -28,9 +31,9 @@ function Profile() {
                         <p>anna@example.com</p>
 
                         <ul className="about ul-profile">
-                            <li><span>4,073</span>Followers</li>
-                            <li><span>322</span>Following</li>
-                            <li><span>200,543</span>Attractions</li>
+                            <li><span>4,073</span>Seguidores</li>
+                            <li><span>322</span>Seguidos</li>
+                            <li><span>200,543</span>Atracciones</li>
                         </ul>
 
                         <div className="content">
@@ -50,13 +53,12 @@ function Profile() {
 
                         <nav>
                             <ul className="ul-profile">
-                                <li><Link to="/" className="link-profile">Photos</Link></li>
-                                <li><Link to="/" className="link-profile">Games</Link></li>
-                                <li><Link to="/" className="link-profile">Home</Link></li>
+                                <li><Link to="/" className="link-profile">Fotos</Link></li>
+                                <li><Link to="/" className="link-profile">Partidas</Link></li>
                                 <li><Link to="/" className="link-profile">Settings</Link></li>
                             </ul>
 
-                            <button>Follow</button>
+                            <button>Seguir</button>
                         </nav>
 
                         <div className="photos">
@@ -67,6 +69,10 @@ function Profile() {
                             <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="" />
                             <img src="https://media.gq.com.mx/photos/60cf8f0a33c54bdef67610ee/16:9/w_2560%2Cc_limit/paisaje.jpg" alt="" />
                             <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="" />
+                            <img src="https://media.gq.com.mx/photos/60cf8f0a33c54bdef67610ee/16:9/w_2560%2Cc_limit/paisaje.jpg" alt="" />
+                            <img src="https://media.gq.com.mx/photos/60cf8f0a33c54bdef67610ee/16:9/w_2560%2Cc_limit/paisaje.jpg" alt="" />
+                            <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="" />
+                            <img src="https://media.gq.com.mx/photos/60cf8f0a33c54bdef67610ee/16:9/w_2560%2Cc_limit/paisaje.jpg" alt="" />
                             <img src="https://media.gq.com.mx/photos/60cf8f0a33c54bdef67610ee/16:9/w_2560%2Cc_limit/paisaje.jpg" alt="" />
                         </div>
 

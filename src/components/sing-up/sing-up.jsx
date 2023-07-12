@@ -27,24 +27,24 @@ function SingUp() {
                         <h1>Login</h1>
 
                         <div className="input-box">
-                            <input type="text" placeholder="Username" required />
+                            <input type="text" placeholder="Email" required />
                             <ion-icon name="person-outline"></ion-icon>
                         </div>
 
                         <div className="input-box">
-                            <input type="password" placeholder="Password" required />
+                            <input type="password" placeholder="Contraseña" required />
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </div>
 
                         <div className="remember-forgot">
-                            <label><input type="checkbox" />Remember me</label>
-                            <Link to="/forgot" className="link-forgot">Forgot password? </Link>
+                            <label><input type="checkbox" />Recuerdame</label>
+                            <Link to="/forgot" className="link-forgot">Olvidaste la contraseña? </Link>
                         </div>
 
                         <button type="submit" className="btn-login">Login</button>
 
                         <div className="register">
-                            <p>Dont Have an account? <Link to="/register" className="link-register">Register</Link></p>
+                            <p>Tenes una cuenta? <Link to="/register" className="link-register">Registrate</Link></p>
                         </div>
 
                     </form>

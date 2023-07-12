@@ -26,19 +26,16 @@ function Navigation() {
 
                 <ul className="navigation-list">
                     <li className="navigation-item">
-                        <Link to="/" className="navigation-link"><span>01</span>Home</Link>
+                        <Link to="/" className="navigation-link"><span>01</span>Inicio</Link>
                     </li>
                     <li className="navigation-item">
-                        <Link to="/history" className="navigation-link"><span>02</span>History</Link>
+                        <Link to="/learn" className="navigation-link"><span>02</span>Aprende</Link>
                     </li>
                     <li className="navigation-item">
-                        <Link to="/learn" className="navigation-link"><span>03</span>Learn</Link>
-                    </li>
-                    <li className="navigation-item">
-                        <Link to="/profile" className="navigation-link"><span>04</span>Profile</Link>
+                        <Link to="/profile" className="navigation-link"><span>03</span>Perfil</Link>
                     </li >
                     <li className="navigation-item">
-                        <Link to="/login" className="navigation-link"><span>05</span>Login</Link>
+                        <Link to="/login" className="navigation-link"><span>04</span>Login</Link>
                     </li >
                 </ul >
 

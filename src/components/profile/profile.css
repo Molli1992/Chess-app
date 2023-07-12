@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    background-color: black;
 }
 
 .ul-profile {
@@ -16,14 +17,6 @@
 
 a {
     text-decoration: none;
-}
-
-.header-wrapper header {
-    width: 100%;
-    background-image: url("https://i.ytimg.com/vi/6THZMVLl_oQ/maxresdefault.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: calc(100px + 15vw);
 }
 
 .cols-container {
@@ -40,7 +33,6 @@ a {
 
 .img-container {
     position: absolute;
-    top: -50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -66,14 +58,14 @@ a {
 }
 
 .left-col h2 {
-    margin-top: 60px;
+    margin-top: 150px;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 5px;
 }
 
 .left-col p {
-    color: #818181;
+    color: #fff;
     font-size: 0.9rem;
     margin: 0;
 }
@@ -87,12 +79,12 @@ a {
 .left-col .about li {
     display: flex;
     flex-direction: column;
-    color: #818181;
+    color: #fff;
     font-size: 0.9rem;
 }
 
 .left-col .about li span {
-    color: #1d1d1d;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -113,7 +105,7 @@ a {
 
 .content p {
     font-size: 1rem;
-    color: #1d1d1d;
+    color: #fff;
     line-height: 1.8rem;
 }
 
@@ -133,12 +125,12 @@ a {
 
 .link-profile {
     text-transform: uppercase;
-    color: #818181;
+    color: #fff;
     cursor: pointer;
 }
 
 .link-profile:hover {
-    color: black;
+    color: #0091ff;
 }
 
 .rigth-col nav button {
