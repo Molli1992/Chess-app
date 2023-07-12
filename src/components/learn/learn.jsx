@@ -118,6 +118,7 @@ function Learn() {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                                         allowFullScreen
+                                        title={v.id}
                                     ></iframe>
                                 </div>
 
@@ -132,6 +133,7 @@ function Learn() {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
+                                        title={v.id}
                                     ></iframe>
                                 </div>
 
@@ -146,6 +148,7 @@ function Learn() {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
+                                        title={v.id}
                                     ></iframe>
                                 </div>
 
@@ -160,6 +163,7 @@ function Learn() {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
+                                        title={v.id}
                                     ></iframe>
                                 </div>
 
@@ -174,6 +178,7 @@ function Learn() {
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
+                                        title={v.id}
                                     ></iframe>
                                 </div>
 
