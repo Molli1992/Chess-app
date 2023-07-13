@@ -31,12 +31,6 @@ function Navigation() {
                     <li className="navigation-item">
                         <Link to="/learn" className="navigation-link"><span>02</span>Aprende</Link>
                     </li>
-                    <li className="navigation-item">
-                        <Link to="/profile" className="navigation-link"><span>03</span>Perfil</Link>
-                    </li >
-                    <li className="navigation-item">
-                        <Link to="/login" className="navigation-link"><span>04</span>Login</Link>
-                    </li >
                 </ul >
 
             </nav >

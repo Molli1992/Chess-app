@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./inicio.css";
 import Navigation from "../navigation/navigation";
 import Navbar from "../navbar/navbar";
 
 
-
 function Inicio() {
 
-
+    const onclick = () => {
+        window.location.href = "/ChessGame"
+    };
 
     return (
 
@@ -26,11 +27,8 @@ function Inicio() {
                 </p>
 
                 <div>
-                    <button type="button" className="button-inicio">
+                    <button type="button" className="button-inicio" onClick={onclick}>
                         <span className="span-button"></span>Juega al ajedrez
-                    </button>
-                    <button type="button" className="button-inicio">
-                        <span className="span-button"></span>Entrenamiento
                     </button>
                 </div>
 

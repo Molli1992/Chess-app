@@ -1,0 +1,22 @@
+.body-chess {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://assets.spartangeek.com/cc/juegos-de-ajedrez-gratis.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.chess-container {
+    height: 450px;
+    width: 450px;
+    margin-bottom: 75px;
+}
+
+.chess-container Chessboard {
+    height: 100%;
+    width: 100%;
+}

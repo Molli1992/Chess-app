@@ -15,8 +15,6 @@ function Navbar() {
             <ul className="ul-navbar">
                 <li><Link to="/" className="link-nav">Inicio</Link></li>
                 <li><Link to="/learn" className="link-nav">Aprende</Link></li>
-                <li><Link to="/profile" className="link-nav">Perfil</Link></li>
-                <li><Link to="/login" className="link-nav">Login</Link></li>
             </ul>
 
         </div>
