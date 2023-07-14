@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./inicio.css";
 import Navigation from "../navigation/navigation";
 import Navbar from "../navbar/navbar";
@@ -28,7 +28,7 @@ function Inicio() {
 
                 <div>
                     <button type="button" className="button-inicio" onClick={onclick}>
-                        <span className="span-button"></span>Juega al ajedrez
+                        <span className="span-button"></span>Juega contra vos mismo para aprender
                     </button>
                 </div>
 

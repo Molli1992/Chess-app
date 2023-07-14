@@ -107,10 +107,6 @@
     width: 100%;
 }
 
-.button-inicio:hover {
-    border: none;
-}
-
 .navigation {
     display: none;
 }
