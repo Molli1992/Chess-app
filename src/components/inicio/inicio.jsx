@@ -2,13 +2,10 @@ import React from "react";
 import "./inicio.css";
 import Navigation from "../navigation/navigation";
 import Navbar from "../navbar/navbar";
-
+import { Link } from "react-router-dom";
 
 function Inicio() {
 
-    const onclick = () => {
-        window.location.href = "/ChessGame"
-    };
 
     return (
 
@@ -27,9 +24,11 @@ function Inicio() {
                 </p>
 
                 <div>
-                    <button type="button" className="button-inicio" onClick={onclick}>
-                        <span className="span-button"></span>Juega contra vos mismo para aprender
-                    </button>
+                    <Link to="/ChessGame">
+                        <button type="button" className="button-inicio">
+                            <span className="span-button"></span>Juega contra vos mismo para aprender
+                        </button>
+                    </Link>
                 </div>
 
             </div>
